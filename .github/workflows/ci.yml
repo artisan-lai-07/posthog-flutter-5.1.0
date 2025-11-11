@@ -10,6 +10,7 @@ on:
 # Publish using custom workflow
 jobs:
   build:
+    if: false
     runs-on: macos-latest
     steps:
       - uses: actions/checkout@v4

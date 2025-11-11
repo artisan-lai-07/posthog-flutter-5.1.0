@@ -9,6 +9,7 @@ on:
 # Publish using custom workflow
 jobs:
   publish:
+    if: false
     permissions:
       id-token: write # Required for authentication using OIDC
     runs-on: ubuntu-latest

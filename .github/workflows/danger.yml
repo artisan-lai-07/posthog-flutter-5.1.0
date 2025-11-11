@@ -5,6 +5,7 @@ on:
 
 jobs:
   build:
+    if: false
     name: Changelog
     runs-on: ubuntu-latest
     steps:
